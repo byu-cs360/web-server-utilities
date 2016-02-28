@@ -15,9 +15,9 @@ make realclean
 
 2) test.cc - Uses the configuration parser and prints out its entries.
 
-### Syntax
-
+```
 ./test
+```
 
 3) Config.h/.cc - Code to parse a web server configuration file.
 

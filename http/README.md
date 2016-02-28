@@ -1,8 +1,8 @@
-======================================================================
-Example code for creating and parsing HTTP messages.
-======================================================================
+## HTTP Parser
 
-Contents:
+Example code for creating and parsing HTTP messages.
+
+### Contents
 
 1) Makefile - Will compile the code and keep track of dependencies, so
 that the code is recompiled correctly when any of the source code is
@@ -20,7 +20,9 @@ response messages.  Prints out its results.
 
 Syntax:
 
+```
 ./test
+```
 
 3) HTTPRequest.h/.cc - Code to create an HTTP request or to parse an
 incoming HTTP request.

@@ -1,4 +1,5 @@
-======================================================================
+## exec
+
 Example code showing how to use the execv() and execve() systems calls
 to execute an external program from C.
 
@@ -7,9 +8,8 @@ process.  If you don't do this, then you replace the current program
 you are running with the new one, and you can't execute any subsequent
 code.  When execv() or execve() finishes, it does NOT return to your
 program!
-======================================================================
 
-Contents:
+### Contents
 
 1) Makefile - Will compile the code and keep track of dependencies, so
 that the code is recompiled correctly when any of the source code is
@@ -25,9 +25,9 @@ make realclean
 2) exec.cc - A program that runs the 'ls' command and a python script
 using calls to execv() and execve().
 
-Syntax:
-
+```
 ./exec
+```
 
 3) script.py - A python script that prints some environment variables,
 showing that the execve() call can use this method to pass data to a
